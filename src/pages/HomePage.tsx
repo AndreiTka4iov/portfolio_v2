@@ -8,13 +8,20 @@ const HomePage = () => {
         id="home"    
         className="
             flex
-            justify-between
+            flex-col-reverse
+            justify-around
             items-center
             w-full
             h-screen
-            pl-32
-            pr-32
             relative
+            pl-4
+            pr-4
+            pt-16
+            pb-9
+            lg:pl-32
+            lg:pr-32
+            md:flex-row
+            md:justify-between
         ">
             <HomeText />
             <People

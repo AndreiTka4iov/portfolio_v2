@@ -6,16 +6,21 @@ const Header = () => {
             fixed
             z-20
             top-0
-            w-full
-            h-16
-            pl-32
-            pr-32
-            bg-stone-800 
             flex
-            justify-between
+            justify-center
             items-center
+            sm:justify-between
+            w-full
+            bg-stone-800 
+            h-16
+            pl-4
+            pr-4
+            lg:pl-32
+            lg:pr-32
         ">
             <h1 className="
+                hidden
+                sm:block
                 text-gray-300
                 text-2xl
                 opacity-0 

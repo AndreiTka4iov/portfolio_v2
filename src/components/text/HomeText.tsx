@@ -26,7 +26,8 @@ const HomeText = () => {
         <div className="text-gray-300 min-h-max">
             <h3 
               className="
-              text-3xl 
+              sm:text-3xl
+              text-2xl 
               font-bold 
               animate-toBottom 
               opacity-0 
@@ -34,7 +35,8 @@ const HomeText = () => {
               ">Hello, it's Me</h3>
             <h1 
               className="
-              text-6xl 
+              sm:text-6xl
+              text-4xl  
               font-bold 
               leading-tight  
               opacity-0 
@@ -43,13 +45,16 @@ const HomeText = () => {
               ">Andrey Tkachev</h1>
             <h3 
               className="
-              text-3xl 
+              sm:text-3xl
+              text-2xl  
               font-bold
               opacity-0
               animate-toTop
               animation-delay-500
               ">And I'm a <span className="text-red-500" ref={element}></span></h3>
             <span className='
+              sm:text-base
+              text-sm 
               opacity-0
               animate-toTop
               animation-delay-1000

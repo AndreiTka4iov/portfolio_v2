@@ -1,3 +1,4 @@
+import AboutPage from "./AboutPage";
 import HomePage from "./HomePage";
 
 const Page = () => {
@@ -5,9 +6,10 @@ const Page = () => {
         <div className="
             bg-stone-800 
             w-100 
-            min-h-screen
+            h-max
         ">
             <HomePage/>
+            <AboutPage/>
         </div>
      );
 }
