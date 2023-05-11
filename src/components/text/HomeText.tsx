@@ -6,15 +6,20 @@ import ButtonA from '../ButtonA';
 const HomeText = () => {
     const element = useRef(null);
 
-    useEffect(() => {        
-        const typed = new Typed(element.current, {
-          strings: ['Fullstack developer'],
-          typeSpeed: 75,
-        });
-    
-        return () => {
-          typed.destroy();
-        };
+    useEffect(() => {    
+        async function typedFunction() {
+          setTimeout(() => {
+            const typed = new Typed(element.current, {
+              strings: ['Fullstack developer'],
+              typeSpeed: 50,
+            });
+        
+            return () => {
+              typed.destroy();
+            };
+          }, 1000)
+        }  
+        typedFunction()  
     }, []);
 
     return ( 
@@ -48,7 +53,7 @@ const HomeText = () => {
               opacity-0
               animate-toTop
               animation-delay-1000
-              '>I am from Moscow. I've been developing for 2 years.</span>
+              '>I'm from Moscow. I've been developing for 2 years.</span>
             <MyLinks/>
             <ButtonA 
             href="https://t.me/Tcka4" 
