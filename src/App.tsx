@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import Page from './pages/page';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className="App">
-      
+      <Header/>
+      <Page/>
     </div>
   );
 }
