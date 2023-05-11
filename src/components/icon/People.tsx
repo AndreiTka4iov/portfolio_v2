@@ -8,6 +8,9 @@ const People: React.FC<peopleProps> = ({src, link}) => {
         <a href={link} className="
             w-64
             h-64
+            opacity-0
+            animate-toBottom
+            animation-delay-400
             rounded-full
             overflow-hidden
             bg-red-500

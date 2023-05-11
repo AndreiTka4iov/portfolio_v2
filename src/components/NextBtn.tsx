@@ -18,6 +18,9 @@ const NextBtn: React.FC<NextProps> = ({href}) => {
             flex
             justify-center
             items-center
+            opacity-0
+            animate-toBottom
+            animation-delay-1000
         '
         >
             <div

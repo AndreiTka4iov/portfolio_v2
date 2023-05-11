@@ -25,8 +25,11 @@ const MyLinks = () => {
                 text-red-500
                 hover:bg-red-500
                 hover:text-gray-300
+                opacity-0
+                animate-toLeft
                 transition
             "
+            style={{'animationDelay' : 'calc(200ms * 1)'}}
             >
                 <FaTelegramPlane/>
             </a>
@@ -44,8 +47,11 @@ const MyLinks = () => {
                 text-red-500
                 hover:bg-red-500
                 hover:text-gray-300
+                opacity-0
+                animate-toLeft
                 transition
             "
+            style={{'animationDelay' : 'calc(200ms * 2)'}}
             >
                 <BsGithub/>
             </a>
@@ -63,8 +69,11 @@ const MyLinks = () => {
                 text-red-500
                 hover:bg-red-500
                 hover:text-gray-300
+                opacity-0
+                animate-toLeft
                 transition
             "
+            style={{'animationDelay' : 'calc(200ms * 3)'}}
             >
                 <FaLinkedinIn/>
             </a>
@@ -82,8 +91,11 @@ const MyLinks = () => {
                 text-red-500
                 hover:bg-red-500
                 hover:text-gray-300
+                opacity-0
+                animate-toLeft
                 transition
             "
+            style={{'animationDelay' : 'calc(200ms * 4)'}}
             >
                 <HiMail/>
             </a>

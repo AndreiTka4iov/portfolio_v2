@@ -18,6 +18,9 @@ const Header = () => {
             <h1 className="
                 text-gray-300
                 text-2xl
+                opacity-0 
+                animation-delay-300 
+                animate-toRight
             ">Portfolio.</h1>
             <Navbar />
         </header>

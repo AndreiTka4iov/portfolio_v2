@@ -16,7 +16,7 @@ const Navbar = () => {
                 <a 
                 href={btn.href} 
                 key={btn.id}
-                className="
+                className='
                     flex
                     items-center
                     h-16
@@ -24,7 +24,11 @@ const Navbar = () => {
                     text-gray-300
                     transition
                     hover:text-red-500
-                ">
+                    animate-toBottom
+                    opacity-0
+                '
+                style={{'animationDelay': `calc(100ms * ${btn.id})`}}
+                >
                     {btn.title}
                 </a>
             )}
