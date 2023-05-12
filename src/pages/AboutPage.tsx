@@ -1,3 +1,4 @@
+import NextBtn from "../components/NextBtn";
 import TagCloudSphere from "../components/about/TagCloudSphere.jsx";
 import AboutText from "../components/text/AboutText";
 
@@ -26,6 +27,7 @@ const AboutPage = () => {
         >
            <TagCloudSphere/>
            <AboutText/>
+           <NextBtn href='#projects'/>
         </div>
      );
 }

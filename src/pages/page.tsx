@@ -1,5 +1,6 @@
 import AboutPage from "./AboutPage";
 import HomePage from "./HomePage";
+import ProjectsPage from "./ProjectsPage";
 
 const Page = () => {
     return ( 
@@ -10,6 +11,7 @@ const Page = () => {
         ">
             <HomePage/>
             <AboutPage/>
+            <ProjectsPage/>
         </div>
      );
 }

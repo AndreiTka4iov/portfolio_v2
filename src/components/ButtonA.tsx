@@ -1,6 +1,6 @@
 interface ButtonAProps {
     href: string,
-    className: string,
+    className?: string,
     title: string
 }
 
@@ -15,6 +15,7 @@ const ButtonA: React.FC<ButtonAProps> = ({href, className, title}) => {
             bg-red-500
             rounded-2xl
             text-lg
+            text-gray-300
             hover:shadow-md
             hover:shadow-red-500
             transition
