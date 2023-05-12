@@ -28,7 +28,7 @@ const TagCloudSphere = () => {
 
         ];
         const options = {
-            radius: 200,
+            radius: 225,
             maxSpeed: "normal",
             initSpeed: "normal",
             keep: true,
