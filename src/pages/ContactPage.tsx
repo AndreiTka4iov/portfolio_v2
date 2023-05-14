@@ -1,3 +1,5 @@
+import ContactForm from "../components/form/ContactForm.jsx";
+
 const ContactPage = () => {
     return ( 
         <div 
@@ -6,7 +8,7 @@ const ContactPage = () => {
             text-center
             overflow-hidden
             w-full
-            h-screen
+            min-h-screen
             relative
             pl-4
             pr-4
@@ -22,6 +24,7 @@ const ContactPage = () => {
                 text-gray-300
                 ">Contact <span className="text-red-500">Me</span>
             </h1>
+            <ContactForm/>
         </div>
      );
 }
