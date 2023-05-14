@@ -27,7 +27,7 @@ const ProjectCart: React.FC<ProjectCartProps> = ({srcImg, title, descr, git, hre
                 rounded-xl
                 overflow-hidden
             ">
-                <img src={srcImg} alt="image" />
+                <img src={srcImg} alt={title} />
             </div>
             <div className="
                 w-72
