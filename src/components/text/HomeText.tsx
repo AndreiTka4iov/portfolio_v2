@@ -61,7 +61,7 @@ const HomeText = () => {
               '>I'm from Moscow. I've been developing for 2 years.</span>
             <MyLinks/>
             <ButtonA 
-            href="https://t.me/Tcka4" 
+            href="https://drive.google.com/file/d/1Hoy5PrwfvSEQExpt_U_gHMrmR9ythPLr/view?usp=sharing" 
             className="
             mt-4
             opacity-0

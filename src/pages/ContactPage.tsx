@@ -7,15 +7,14 @@ const ContactPage = () => {
         className=" 
             text-center
             overflow-hidden
-            w-full
+            w-11/12
             min-h-screen
+            m-auto
             relative
-            pl-4
-            pr-4
             pt-16
             pb-9
-            lg:pl-32
-            lg:pr-32">
+            lg:w-2/4
+            lg:w-2/4">
             <h1 className="
                 sm:text-6xl
                 text-4xl  
