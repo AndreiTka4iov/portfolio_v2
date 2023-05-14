@@ -25,7 +25,7 @@ const HomePage = () => {
         ">
             <HomeText />
             <People
-                src="/images/people.svg"
+                src="/portfolio_v2/images/people.svg"
                 link="https://github.com/AndreiTka4iov"
             />
             <NextBtn href='#about'/>

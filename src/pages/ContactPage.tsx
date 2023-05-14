@@ -13,7 +13,6 @@ const ContactPage = () => {
             relative
             pt-16
             pb-9
-            lg:w-2/4
             lg:w-2/4">
             <h1 className="
                 sm:text-6xl
