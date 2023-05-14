@@ -4,10 +4,6 @@ This is a repository for a Frontend Portfolio with React, Tailwind, TypeScript
 
 [View the project](https://andreitka4iov.github.io/portfolio_v2/)
 
-### Prerequisites
-
-**Node version 14.x**
-
 ### Setup .env file
 
 
